@@ -6,4 +6,4 @@ Concept:
 
 Social app for connecting volunteers/students seeking to learn or earn hours with companies/experts willing to teach. No money exchanged.
 
-This is an ongoing project. To recreate the app, clone the repo, run the command `npm init` and then, run the command `npm run dev`,which will start both the front and backends using the npm package "concurrently".
+This is an ongoing project. To recreate the app, clone the repo, run the command `npm init`, and then, run the command `npm run dev`, which will start both the backend and frontend (port:5000) using the npm package "concurrently".
