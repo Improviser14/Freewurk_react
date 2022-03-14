@@ -21,7 +21,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
     // e.target.name will use the value of whatever the value of the 'name' attribute is, so it will work on all of the fields
     setFormData({ ...formData, [e.target.name]: e.target.value });
 
-    // the useState hook allows you to access the state from anywhere
+  // the useState hook allows you to access the state from anywhere
   const onSubmit = async (e) => {
     e.preventDefault();
     if (password !== password2) {
@@ -41,7 +41,6 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
       <p className='lead'>
         <i className='fas fa-user'></i> Create Your Account
       </p>
-      // 
       <form className='form' onSubmit={(e) => onSubmit(e)}>
         <div className='form-group'>
           <input

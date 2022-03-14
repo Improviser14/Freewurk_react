@@ -30,12 +30,12 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
 
   const guestLinks = (
     <ul>
-      <li>
+      {/* <li>
         <Link to='/profiles'>Offering</Link>
-      </li>
-      <li>
+      </li> */}
+      {/* <li>
         <Link to='/profiles'>Seeking</Link>
-      </li>
+      </li> */}
       <li>
         <Link to='/register'>Register</Link>
       </li>
