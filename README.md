@@ -1,6 +1,6 @@
 # Freewurk_react
 
-A full-stack React app with a Node backend and MongoDB db. Mobile-responsive with a custom font: "Occupied"
+A full-stack React app with a Node backend and MongoDB. Mobile-responsive with a custom font: "Occupied"
 
 Concept:
 
